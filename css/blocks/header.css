@@ -1,0 +1,28 @@
+.header {
+    height: 120px;
+    padding: 12px 100px 20px;
+    background: linear-gradient(90deg, #415BD2 0%, #8DA1F7 100%);
+}
+
+.header__top {
+    margin: 0 0 20px 0;
+}
+
+.header__bottom {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: end;
+    gap: 12px;
+}
+
+.header__client-text {
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #2B3143;
+}
