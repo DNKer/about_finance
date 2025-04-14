@@ -16,11 +16,11 @@
     gap: 12px;
 } */
 
-.header__bottom {
-    display: grid;
-    grid-template-columns: 170px 1fr;
-    gap: 20px;
-}
+.header__bottom { 
+     display: grid; 
+     grid-template-columns: 170px 1fr;
+ }
+
 
 .header__logo {
     width: 170px;
@@ -29,11 +29,10 @@
 
 .header__bottom-wrapper {
     display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: end;
     align-items: center;
-    gap: 12px;
+    justify-content: end;
+    gap: 6px;
 }
 
 .hero__qr {
@@ -47,7 +46,7 @@
 
 .header__client-text {
     border-radius: 8px;
-    padding: 12px;
+    padding: 12px 20px;
     font-weight: 500;
     font-size: 13px;
     line-height: 16px;
