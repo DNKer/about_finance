@@ -1,0 +1,27 @@
+.aside-nav {
+    width: 400px;
+    height: 100%;
+    grid-row-start: 3;
+}
+
+.aside-nav__list {
+    margin: 0 0 60px 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.aside-nav__link {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.aside-nav__link-text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1E222E;
+}

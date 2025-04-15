@@ -1,0 +1,21 @@
+.catalog__wrapper-questions{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    margin: 0 0 50px 0;
+}
+
+.catalog__caption {
+    margin: 0 0 24px 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.catalog__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 48px 0;
+    color: #696E82;
+    grid-row-start: 2;
+}

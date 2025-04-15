@@ -1,0 +1,31 @@
+.socials {
+    grid-row-start: 4;
+}
+
+.socials__caption {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #696E82;
+    margin: 0 0 12px 0;
+}
+
+.socials__links {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin: 0 0 24px 0;
+}
+
+.socials__telegram,
+.socials__vk,
+.socials__ok,
+.socials__direct-link {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+}
