@@ -1,19 +1,24 @@
-.cards__item {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: grid;
-}
-
-.cards__debets-img {
+.card-img {
     width: 340px;
     height: 100%;
 }
 
 .card {
-    border-radius: 16px;
-    background-color: #F4F6FA;
     display: flex;
+    border-radius: 16px;
+}
+
+.cards__item {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    border-radius: 16px;
+}
+
+.cards__item--landscape {
+    background-color: #F4F6FA;
+    overflow: hidden;
 }
 
 .card__wrapper {
