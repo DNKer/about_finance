@@ -1,7 +1,7 @@
 .container {
   max-width: 1440px;
-  margin: 0 auto;
-  padding: 60px 40px 100px;
+  margin: 0;
+  padding: 60px 100px 40px;
 }
 
 .container__wrapper-questions{
