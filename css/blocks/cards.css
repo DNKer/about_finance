@@ -6,7 +6,8 @@
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
     grid-gap: 40px 32px; 
 }
 
@@ -15,8 +16,6 @@
     padding: 0;
     list-style: none;
     border-radius: 16px;
-    /* display: grid;
-    grid-column: 1; */
 }
 
 .cards__item--landscape {
@@ -32,10 +31,14 @@
     list-style: none;
 }
 
+.cards__item .card {
+    border-radius: 16px;
+}
+
 .card-img {
-    max-width: 100%;
-    /* width: 340px; */
-    height: 240px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .cards__item--landscape .card__wrapper {

@@ -1,4 +1,5 @@
 .container {
+  width: 100%;
   max-width: 1440px;
   margin: 0;
   padding: 60px 100px 40px;
@@ -7,5 +8,5 @@
 .container__wrapper-questions{
   display: grid;
   grid-template-columns: 400px 1fr;
-  margin: 0 0 50px 0;
+  column-gap: 128px;
 }
