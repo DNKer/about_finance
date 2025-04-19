@@ -22,19 +22,6 @@
     padding: 20px 32px;
 }
 
-.cards__list {
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, auto);
-    grid-gap: 40px 32px;
-    border-radius: 16px;
-    list-style: none;
-    flex-wrap: nowrap;
-    overflow: hidden;
-}
-
 .card__view-date {
     display: flex;
     align-items: center;
