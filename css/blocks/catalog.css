@@ -11,5 +11,9 @@
     line-height: 24px;
     margin: 0 0 48px 0;
     color: #696E82;
-    grid-row-start: 2;
+    /* grid-row-start: 2; */
+}
+
+.catalog__right {
+    grid-column: 2 / 3; 
 }

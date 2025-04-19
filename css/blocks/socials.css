@@ -1,12 +1,21 @@
-.socials {
-    grid-row-start: 4;
-}
-
-.socials__caption {
+.socials__caption,
+.socials__copyright {
     font-weight: 400;
     font-size: 13px;
     line-height: 16px;
     color: #696E82;
+}
+
+.socials__caption {
+    display: inline-block
+}
+
+.socials__copyright {
+    margin: 0;
+    padding: 0;
+}
+
+.socials__caption { 
     margin: 0 0 12px 0;
 }
 
@@ -15,6 +24,11 @@
     flex-direction: row;
     gap: 8px;
     margin: 0 0 24px 0;
+    padding: 0;
+}
+
+.socials__item {
+    list-style: none;
 }
 
 .socials__telegram,
