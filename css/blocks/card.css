@@ -1,35 +1,13 @@
 .card {
-    border-radius: 16px;
-}
-
-.card__content {
     display: flex;
-    background-color: #FFFFFF;
-    flex-wrap: wrap;
-    list-style: none;
     border-radius: 16px;
-}
-
-.card .card__wrapper {
-    padding: 20px 0 0 0;
+    flex-direction: column;
 }
 
 .card--landscape {
-    flex-wrap: nowrap;
-    overflow: hidden;
-    grid-column: 1 / 3;
+    flex-direction: row;
     background-color: #F4F6FA;
-}
-
-.card--landscape .card__content {
-    flex-wrap: nowrap;
-    overflow: hidden;
-    grid-column: 1 / 3;
-    background-color: #F4F6FA;
-}
-
-.card--landscape .card__wrapper {
-    padding: 20px 32px;
+    border-radius: 16px;
 }
 
 .card__view-date {
