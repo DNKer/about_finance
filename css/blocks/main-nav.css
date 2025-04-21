@@ -9,7 +9,7 @@
     list-style: none;
     display: grid;
     grid-template-columns: repeat(8, auto);
-    justify-content: center;
+    justify-content: left;
     gap: 20px;
     font-weight: 500;
     font-size: 13px;
